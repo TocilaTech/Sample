@@ -1,125 +1,186 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>Daniel Tocila</title>
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-		<link rel="stylesheet" type="text/css" href="css/style.css">
-	</head>
-	<body>
+<head>
+<meta charset="utf-8">
+<meta http-equiv = "X-UA-Compatible" content = "IE=edge">
+<meta name = "viewport" content = "width = device-width, initial-scale = 1">
+<title>Daniel Tocila</title>
 
-		<!-- This is the navbar div at the top. -->
-		<div class = "navbar navbar-inverse navbar-static-top">
-			<div class = "container">
-				<a href = "index.html" class = "navbar-brand">Daniel Tocila - Sample</a>
-				<button class = "navbar-toggle" data-toggle = "collapse" data-target = ".navHeaderCollapse">
+<!-- Adding Bootstrap -->
+<link href = "css/bootstrap.min.css" rel = "stylesheet">
+<link href = "https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+<link href = "css/style.css" rel = "stylesheet">
+<link href='http://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
+
+</head>
+<body>
+	<!-- Navbar Header -->
+	<div class = "navbar navbar-inverse navbar-fixed-top" role = "navigation">
+		<div class = "container">
+			<div class = "navbar-header">
+				<button type = "button" class = "navbar-toggle" data-toggle = "collapse" data-target = ".navbar-collapse">
+					<span class = "sr-only">Toggle navigation</span>
 					<span class = "icon-bar"></span>
 					<span class = "icon-bar"></span>
-					<span class = "icon-bar"></span>					
+					<span class = "icon-bar"></span>
 				</button>
-				<div class = "collapse navbar-collapse navHeaderCollapse">
-					<ul class = "nav navbar-nav navbar-right">
-						<li><a href = "index.html">Home</a></li>
-						<li><a href = "read.html">Blog</a></li>
-						<li class = "dropdown">
-							<a href = "#" class = "dropdown-toggle" data-toggle = "dropdown">Social Media <b class = "caret"></b></a>
-							<ul class = "dropdown-menu">
-								<li><a href = "https://www.twitter.com">Twitter</a></li>
-								<li><a href = "https://www.facebook.com">Facebook</a></li>
-								<li><a href = "https://www.google.com">Google+</a></li>
-								<li><a href = "https://www.instagram.com">Instagram</a></li>
-							</ul>
-
-						</li>
-						<li><a href = "carousel.html">Photo Album</a></li>
-						<li><a href = "#contact" data-toggle = "modal">Contact</a></li>
-
-				</div>
+				<a class = "navbar-brand" href = "#"> Daniel Tocila </a>
+			</div>
+			<div class = "navbar-collapse collapse">
+				<ul class = "nav navbar-nav navbar-right">
+					<li class = "active"><a href = "#">Home</a></li>
+					<li><a href = "new.html">About</a></li>
+					<li><a href = "carousel.html">Photo Album</a></li>
+					<li class = "dropdown"><a href = "#" class = "dropdown-toggle" data-toggle = "dropdown">Test<b class = "caret"></b></a>
+					<ul class = "dropdown-menu">
+						<li class = "dropdown-header">Admin & Dashboard</li>
+						<li><a href = "#">Admin 1</a></li>
+						<li><a href = "#">Admin 2</a></li>
+						<li class = "divider"></li>
+						<li class = "dropdown-header">Portfolios</i>
+						<li><a href = "#">Web Development Samples</a></li>
+						<li><a href = "#">Embedded System Programming</a></li>
+					</ul>
+					</li>
+					<li><a href = "#contact" data-toggle = "modal">Contact</a></li>
 			</div>
 		</div>
-
-		<!-- This is the jumbotron div. -->
+	</div>
+	<!-- End Navbar Header -->
+	
+	<!-- Jumbotron -->
+	<div class = "container">
+		<div class = "jumbotron text-center">
+			<h1>Hello World!</h1>
+			<p>This is Daniel Tocila, ruler of the webs. Fear me, minions.</p>
+			<a href = "#" class = "btn btn-primary">Buy Something</a>
+			<a href = "#" class = "btn btn-success">Howdy Billy!</a>
+		</div>
+		<div class = "row">
+			<div class = "col-md-4">
+			<a href = "new.html" class = "thumbnail">
+				<img src = "img/1" alt = "Image">
+			</a>
+				<h3>Theme 1</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim 
+				ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit 
+				in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia 
+				deserunt mollit anim id est laborum.</p>
+				<a href = "new.html" class = "btn btn-danger">View</a>
+			</div>
+			<div class = "col-md-4">
+			<a href = "new.html" class = "thumbnail">
+				<img src = "img/2" alt = "Image">
+			</a>
+				<h3>Theme 2</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim 
+				ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit 
+				in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia 
+				deserunt mollit anim id est laborum.</p>
+				<a href = "new.html" class = "btn btn-danger">View</a>
+			</div>
+			<div class = "col-md-4">
+			<a href = "new.html" class = "thumbnail">
+				<img src = "img/3" alt = "Image">
+			</a>
+				<h3>Theme 3</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim 
+				ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit 
+				in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia 
+				deserunt mollit anim id est laborum.</p>
+				<a href = "new.html" class = "btn btn-danger">View</a>
+			</div>
+		</div>
+		
+			<div class = "col-md-4">
+			<a href = "new.html" class = "thumbnail">
+				<img src = "img/4" alt = "Image">
+			</a>
+				<h3>Theme 4</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim 
+				ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit 
+				in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia 
+				deserunt mollit anim id est laborum.</p>
+				<a href = "new.html" class = "btn btn-danger">View</a>
+			</div>
+			<div class = "col-md-4">
+			<a href = "new.html" class = "thumbnail">
+				<img src = "img/5" alt = "Image">
+			</a>
+				<h3>Theme 5</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim 
+				ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit 
+				in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia 
+				deserunt mollit anim id est laborum.</p>
+				<a href = "new.html" class = "btn btn-danger">View</a>
+			</div>
+			<div class = "col-md-4">
+			<a href = "new.html" class = "thumbnail">
+				<img src = "img/6" alt = "Image">
+			</a>
+				<h3>Theme 6</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim 
+				ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit 
+				in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia 
+				deserunt mollit anim id est laborum.</p>
+				<a href = "new.html" class = "btn btn-danger">View</a>
+			</div>
+		</div>
+	</div>
+	<!-- End Jumbotron -->
+	
+	<!-- Navbar Footer -->
+	<div class = "navbar navbar-inverse navbar-fixed-bottom" role = "navigation">
 		<div class = "container">
-			<div class = "jumbotron text-center">
-			<h1>Hello, World!</h1>
-			<p>Greetings! This is a test paragraph. Announcements or important information can go inside this block. The block is called a "jumbotron."</p>
-			<a class = "btn btn-default">Watch now!</a>
-			<a class = "btn btn-info">Tweet it!</a>
+			<div class = "navbar-text pull-left">
+				<p>Daniel Tocila</p>
 			</div>
-
-		<div class = "container">
-			<div class = "row">
-				<div class = "col-md-3">
-					<h3><a href = "#"> Hello World</a></h3>
-					<p>Hello. This is another test paragraph to see if the grid system is working properly.</p>
-					<a href = "#" class = "btn btn-default">Read more!</a>
-				</div>
-
-				<div class = "col-md-3">
-					<h3><a href = "#"> Hello World</a></h3>
-					<p>Hello. This is another test paragraph to see if the grid system is working properly.</p>
-					<a href = "#" class = "btn btn-default">Read more!</a>
-				</div>
-
-				<div class = "col-md-3">
-					<h3><a href = "#"> Hello World</a></h3>
-					<p>Hello. This is another test paragraph to see if the grid system is working properly.</p>
-					<a href = "#" class = "btn btn-default">Read more!</a>
-				</div>
-
-				<div class = "col-md-3">
-					<h3><a href = "#"> Hello World</a></h3>
-					<p>Hello. This is another test paragraph to see if the grid system is working properly.</p>
-					<a href = "#" class = "btn btn-default">Read more!</a>
-				</div>
-
-			</div>
-		</div>	
-
-		<div class = "navbar navbar-inverse navbar-fixed-bottom">
-			<div class = "container">
-				<p class = "navbar-text pull-left">Site built by Daniel Tocila</p>
-				<a href = "https://www.youtube.com" class = "navbar-btn btn-success btn pull-right">Subscribe on Youtube</a>
+			<div class = "navbar-text pull-right">
+				<a href = "#"><i class = "fa fa-facebook-square fa-2x"></i></a>
+				<a href = "#"><i class = "fa fa-twitter fa-2x"></i></a>
+				<a href = "#"><i class = "fa fa-google-plus fa-2x"></i></a>
 			</div>
 		</div>
-
-		<div class = "modal fade" id = "contact" role = "dialog">
-			<div class = "modal-dialog">
-				<div class = "modal-content">
-					<form class = "form-horizontal">
-						<div class = "modal-header">
-							<h4>Contact Daniel Tocila</h4>
-						</div>
-						<div class = "modal-body">
-							<div class = "form-group">
-								<label for = "contact-name" class = "col-lg-2 control-label">Name</label>
-								<div class = "col-lg-10">
-									<input type = "text" class = "form-control" id = "contact-name" placeholder = "Full name">
-								</div>
-							</div>
-							<div class = "form-group">
-								<label for = "contact-email" class = "col-lg-2 control-label">Email</label>
-								<div class = "col-lg-10">
-									<input type = "email" class = "form-control" id = "contact-email" placeholder = "you@example.com">
-								</div>
-							</div>
-							<div class = "form-group">
-								<label for = "contact-message" class = "col-lg-2 control-label">Message</label>
-								<div class = "col-lg-10">
-									<textarea class = "form-control" rows = 8></textarea>
-								</div>
+	</div>
+	<!-- End Navbar Footer -->
+	
+	<!-- Scripts n' stuff! -->
+	<div class = "modal fade" id = "contact" role = "dialog">
+		<div class = "modal-dialog">
+			<div class = "modal-content">
+				<form class = "form-horizontal" role = "form">
+					<div class = "modal-header">
+						<h4>Contact</h4>
+					</div>
+					<div class = "modal-body">
+						<div class = "form-group">
+							<label for = "contact-name" class = "col-sm-2 control-label">Name</label>
+							<div class = "col-sm-10">
+								<input type = "text" class = "form-control" id = "contact-name" placeholder = "First & Last Name">
 							</div>
 						</div>
-						<div class = "modal-footer">
-						<a class = "btn btn-primary" data-dismiss = "modal">Close</a>
-						<button class = "btn btn-primary" type = "submit">Send</button>
+						<div class = "form-group">
+							<label for = "contact-email" class = "col-sm-2 control-label">Email</label>
+							<div class = "col-sm-10">
+								<input type = "text" class = "form-control" id = "contact-email" placeholder = "example@domain.com">
+							</div>
 						</div>
-					</form>
-				</div>
+						<div class = "form-group">
+							<label for = "contact-message" class = "col-sm-2 control-label">Message</label>
+							<div class = "col-sm-10">
+								<textarea class = "form-control" rows = "4"></textarea>
+							</div>
+						</div>
+					</div>
+					<div class = "modal-footer">
+						<a class = "btn btn-default" data-dismiss = "modal">Close</a>
+						<button type = "submit" class = "btn btn-primary">Send</button>
+					</div>
+				</form>
 			</div>
 		</div>
-
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-		<script src="js/bootstrap.js"></script>
-	</body>
+	</div>	
+	<script src = "https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<script src = "js/bootstrap.min.js"></script>
+</body>
 </html>

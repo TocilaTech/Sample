@@ -13,7 +13,7 @@ body {
 }
 
 .jumbotron {
-	background-color: purple;
+	background-color: dark-purple;
 	color: white;
 }
 
